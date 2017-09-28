@@ -34,7 +34,7 @@
      }
 // First function
     public function first($txt) {
-      echo '<h1>print length of the string </h1>';
+      echo '<h1> Print length of the string </h1>';
       $a=strlen($txt);
       echo "the lentgh of string is $a";
       echo '<hr>';
@@ -43,7 +43,7 @@
 // Seond function
     public function second($txt) 
     {
-      echo '<h1>print numbers of words in the string </h1>';
+      echo '<h1> Print numbers of words in the string </h1>';
     
       $count=str_word_count("$txt");
       echo "the word count of string is $count";
@@ -52,7 +52,7 @@
     // third function
     public function third($txt) 
     {
-      echo '<h1>print reverse string </h1>';
+      echo '<h1> Print reverse string </h1>';
     
       echo strrev("$txt");
       
@@ -61,7 +61,7 @@
     // fourth function
     public function fourth($txt) 
     {
-      echo '<h1>replacing string </h1>';
+      echo '<h1> Replacing string </h1>';
     
      echo str_replace("first", "second", "$txt");
       
@@ -71,7 +71,7 @@
     // fifth function
     public function fifth($txt) 
     {
-      echo '<h1>replacing uppercase to lower case  </h1>';
+      echo '<h1> Replacing uppercase to lower case  </h1>';
     
      echo strtolower("$txt")."<br>";
 
@@ -82,7 +82,7 @@
     // sixth function
     public function sixth($txt) 
     {
-      echo '<h1>replacing uppercase to upper case  </h1>';
+      echo '<h1> Replacing uppercase to upper case  </h1>';
     
      echo strtoupper("$txt")."<br>";
 
@@ -93,7 +93,7 @@
     // seventh function
     public function seventh($txt) 
     {
-      echo '<h1>comparing string  </h1>';
+      echo '<h1> Comparing string  </h1>';
     
      echo strcmp("$txt", "$txt")."<br>";
     
@@ -104,7 +104,7 @@
     // eigth function
     public function eigth() 
     {
-      echo '<h1>Lower case first letter in the string  </h1>';
+      echo '<h1> Lower case first letter in the string  </h1>';
     
      echo lcfirst("Hello_World")."<br>";
     
@@ -114,7 +114,7 @@
     // nineth function
     public function nineth() 
     {
-      echo '<h1>Upper case first letter in the string  </h1>';
+      echo '<h1> Upper case first letter in the string  </h1>';
     
      echo ucfirst("hello_World")."<br>";
     
@@ -125,7 +125,7 @@
     public function tenth() 
     {
     	
-      echo '<h1> shuffling the string </h1>';
+      echo '<h1> Shuffling the string </h1>';
     
      echo str_shuffle("web");
      
